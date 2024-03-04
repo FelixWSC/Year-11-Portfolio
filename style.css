@@ -1,11 +1,27 @@
-.topnav{
-    top:0;
-    position:fixed;
-    z-index: 999;
-}
-
-body
-{
-    margin: 0;
-}
-
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 16px 18px;
+    text-decoration: none;
+    font-size: 19px;
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .topnav a.active {
+    background-color: hwb(202 8% 4%);
+    color: white;
+  }
+  .header {
+    padding: 80px;
+    text-align: left;
+    background-color: hwb(202 8% 4%);
+    color: white;
+    font-size: 30px;
+  }
