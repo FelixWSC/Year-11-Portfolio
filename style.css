@@ -48,16 +48,39 @@ body{
   }
 
   .section_2 {
-    margin-top: 80px;
+    margin-top: 50px;
     margin-right: 60px;
     padding: 50px;
     text-align: left;
+  }
+  .section_3 {
+    margin-top: 50px;
+    margin-right: 60px;
+    padding: 50px;
+    text-align: left;
+  }
+  .section_4 {
+    margin-top: 50px;
+    margin-right: 60px;
+    padding: 50px;
+    text-align: center;
+  }
+  .Last_section {
+    margin-top: 50px;
+    margin-right: 60px;
+    padding: 40px;
+    text-align: center;
   }
   
   .example_low_poly {
     float: right;
     width: 650px;
     padding-right: 80px;
+  }
+  .Heads_example {
+    float: left;
+    width: 500px;
+    padding-right: 15px;
   }
   #hp  {
     float: right;    
