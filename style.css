@@ -42,6 +42,13 @@ body{
     color: black;
     font-size: 25px;
   }
+  .p1devheader {
+    padding: 80px;
+    text-align: left;
+    background-color: rgb(177, 232, 229);
+    color: black;
+    font-size: 25px;
+  }
   .section_1 {
     padding: 50px;
     text-align: left;
@@ -60,7 +67,7 @@ body{
     text-align: left;
   }
   .section_4 {
-    margin-top: 50px;
+    margin-top: 60px;
     margin-right: 60px;
     padding: 50px;
     text-align: center;
