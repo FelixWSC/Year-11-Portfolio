@@ -42,7 +42,14 @@ body{
     color: black;
     font-size: 25px;
   }
-  .section {
+  .section_1 {
+    padding: 50px;
+    text-align: left;
+  }
+
+  .section_2 {
+    margin-top: 80px;
+    margin-right: 60px;
     padding: 50px;
     text-align: left;
   }
@@ -52,3 +59,11 @@ body{
     width: 650px;
     padding-right: 80px;
   }
+  #hp  {
+    float: right;    
+     margin: 0 0 0 15px;
+    }
+    hr {
+      height: 3px;
+      background-color: black;
+    }
