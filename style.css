@@ -38,11 +38,17 @@ body{
   .project1header {
     padding: 80px;
     text-align: left;
-    background-color: lightseagreen;
+    background-color: rgb(177, 232, 229);
     color: black;
     font-size: 25px;
   }
-  .sections {
+  .section {
     padding: 50px;
     text-align: left;
+  }
+  
+  .example_low_poly {
+    float: right;
+    width: 650px;
+    padding-right: 80px;
   }
