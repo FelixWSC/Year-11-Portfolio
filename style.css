@@ -49,16 +49,24 @@ body{
     color: black;
     font-size: 25px;
   }
+
+  br {
+    display: block; 
+    content: ""; 
+    margin-top: 5; 
+}
   .section_1 {
-    padding: 50px;
+    padding: 60px;
     text-align: left;
+    font-size: large;
   }
 
   .section_2 {
     margin-top: 50px;
-    margin-right: 60px;
+    margin-right: 100px;
     padding: 50px;
     text-align: left;
+    font-size: large;
   }
   .section_3 {
     margin-top: 50px;
@@ -83,12 +91,20 @@ body{
     float: right;
     width: 650px;
     padding-right: 80px;
+    padding-left: 20px;
   }
   .Heads_example {
     float: left;
     width: 500px;
     padding-right: 15px;
   }
+  .knight_character {
+    float: right;
+    width: 700px;
+    padding-right: 80px;
+    padding-left: 20px;
+  }
+
   #hp  {
     float: right;    
      margin: 0 0 0 15px;
@@ -96,4 +112,10 @@ body{
     hr {
       height: 3px;
       background-color: black;
+    }
+
+    .dvsec1 {
+      padding: 60px;
+      text-align: left;
+      font-size: large;
     }
