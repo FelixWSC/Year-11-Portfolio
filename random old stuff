@@ -1,0 +1,23 @@
+  <img class= "torsoimg" src="Torso_shot_1.png" alt="Torso shot" id="hp">
+        <img class= "torsoimg" src="Torso_shot_2.png" alt="Torso shot" id="hp">
+        <img class= "torsoimg" src="Torso_shot_3.png" alt="Torso shot" id="hp">
+      <h1>Torso</h1>
+      <h3>Development</h3>
+      <p>To start, I made a cube roughly the size of half of the torso before adjusting it. I scaled down the cube to match the images, before mirroring the cube to create the other side, and the full torso.</p>
+     
+      
+      <h3>Testing</h3>
+      <p>Write what happened when you tested it or your own feedback if testing isn't applicable</p>
+      <img src="imageOfTesting">
+      
+      <h3>Feedback</h3>
+      <h4>Question 1</h4>
+      <p>Feedback from person 1</p>
+      <p>Feedback from person 2</p>
+      <h4>Question 2</h4>
+      <p>Feedback from person 1</p>
+      <p>Feedback from person 2</p>
+      
+      <h3>Improvements</h3>
+      <p>Write what you changed</p>
+      <img src="imageFileName">

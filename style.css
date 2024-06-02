@@ -47,7 +47,7 @@ body{
     text-align: left;
     background-color: rgb(177, 232, 229);
     color: black;
-    font-size: 25px;
+    font-size: 35px;
   }
 
   br {
@@ -70,12 +70,12 @@ body{
   }
   .section_3 {
     margin-top: 50px;
-    margin-right: 60px;
+    margin-right: 80px;
     padding: 50px;
     text-align: left;
   }
   .section_4 {
-    margin-top: 85px;
+    margin-top: 10px;
     margin-right: 60px;
     padding: 50px;
     text-align: center;
@@ -94,15 +94,51 @@ body{
     padding-left: 20px;
   }
   .Heads_example {
-    float: left;
-    width: 500px;
-    padding-right: 15px;
+    float: right;
+    width: 700px;
+    padding-right: 35px;
+    padding-top: 25px;
   }
   .knight_character {
     float: right;
     width: 700px;
     padding-right: 80px;
     padding-left: 20px;
+  }
+
+  .torsoimg {
+    float: right;
+    width: 700px;
+    padding-right: 80px;
+    padding-left: 20px;
+  }
+  
+  .arm_img {
+    float: right;
+    width: 450px;
+    padding-right: 80px;
+    padding-left: 20px;
+  }
+
+  .rigg_img {
+    float: right;
+    width: 600px;
+    padding-right: 80px;
+    padding-left: 20px;
+  }
+
+  .armdev {
+    margin-top: 10px;
+    margin-right: 60px;
+    padding: 30px;
+    text-align: left;
+  }
+
+  .rigdev {
+    margin-top: 10px;
+    margin-right: 60px;
+    padding: 30px;
+    text-align: left;
   }
 
   #hp  {
@@ -116,6 +152,7 @@ body{
 
     .dvsec1 {
       padding: 60px;
+      margin-right: 100px;
       text-align: left;
       font-size: large;
     }
