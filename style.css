@@ -68,17 +68,30 @@ body{
     text-align: left;
     font-size: large;
   }
+  .area_2 {
+    margin-top: 20px;
+    margin-right: 100px;
+    padding: 50px;
+    text-align: left;
+    font-size: large;
+  }
   .section_3 {
     margin-top: 50px;
     margin-right: 80px;
     padding: 50px;
     text-align: left;
   }
+  .area_3 {
+    margin-top: 50px;
+    margin-right: 80px;
+    padding: 50px;
+    text-align:center;
+  }
   .section_4 {
     margin-top: 10px;
     margin-right: 60px;
     padding: 50px;
-    text-align: center;
+    text-align: left;
   }
   .Last_section {
     margin-top: 50px;
@@ -161,5 +174,25 @@ body{
       float: right;
       width: 650px;
       padding-right: 100px;
+      padding-left: 20px;
+    }
+
+    .floor_gradient {
+      float: right;
+      width: 900px;
+      padding-right: 10px;
+      padding-left: 40px;
+    }
+    
+    .play_fl{
+      float: left;
+      width: 650px;
+      padding-right: 10px;
+      padding-left: 20px;
+    }
+    .imp_fl{
+      float: right;
+      width: 550px;
+      padding-right: 40px;
       padding-left: 20px;
     }
