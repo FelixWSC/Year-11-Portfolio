@@ -62,7 +62,7 @@ body{
   }
 
   .section_2 {
-    margin-top: 50px;
+    margin-top: 20px;
     margin-right: 100px;
     padding: 50px;
     text-align: left;
@@ -155,4 +155,11 @@ body{
       margin-right: 100px;
       text-align: left;
       font-size: large;
+    }
+
+    .flappy_bird {
+      float: right;
+      width: 650px;
+      padding-right: 100px;
+      padding-left: 20px;
     }
