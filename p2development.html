@@ -26,6 +26,26 @@
         <img class= "floor_gradient" src="Floor_gradient.png" alt="Floor gradient code" id="hp">
         <h1>Floor gradient</h1>
       <h3>Development</h3>
-      <p>To start I started to lightly sketch my character, I knew I didn't want to do a really big realistic character so I decided on a cartoony knight character, I wanted it to almost look like a chess piece or a character from a tv show. When I made the character I didn't know how much detail I needed to add so I probably should have simplified it as to let me transfer it better into blender. I quite liked the front on view so I moved onto the side angle which was slightly tougher but I enjoyed making it. </p>
+      <p>
+        
+        The first function I made, its job is to create the floor gradient to create the illusion that the player is moving through the background and the pipes.
+        <br>
+      </p>
+      <p>
+        How this works is that a loop scans through the bottom row of the board, each time it draws two overlapping squares, one square is always black, and then a slightly smaller square is drawn on top of the black square, this gives the appearance of the slightly smaller square on top having an outline. The colour of the smaller square is determined by the columns and row_count which gives the square an RGB r value which means the squares will have a colour from one black to red.
+      </p>
+      <h3>Feedback</h3>
+      <h4>This is instead of testing.</h4>
+      <h4>Person 1</h4>
+      <p>What do you think of the floor gradient? Think it looks pretty cool, works well.
+        Do you think it matches the colour scheme of the game? Yeah, the black and red colour gradient looks good on the floor.
+      </p>
+      <h4>Person 2</h4>
+      <p>Do you think the floor gradient looks good? Looks good and fits into the game very well.
+        Do you think the colours of it match the rest of the game? Looks pretty cool the rest of the game looks amazing.</p>
       <img class>
+      <img class= 'draw_pipes' src="Draw_pipes_code.png" alt="Draw_pipes code" id="hp">
+        <h1>Draw_pipes Function</h1>
+      <h3>Development</h3>
+      <p>My second functions job is to basically draw the columns. The function draws a column on the grid based on the column position and gap start variables, this creates a column at certain intervals on the grid. </p>
       

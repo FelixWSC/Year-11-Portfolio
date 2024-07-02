@@ -183,6 +183,14 @@ body{
       padding-right: 10px;
       padding-left: 40px;
     }
+
+
+    .draw_pipes {
+      float: right;
+      width: 900px;
+      padding-right: 10px;
+      padding-left: 40px;
+    }
     
     .play_fl{
       float: left;
