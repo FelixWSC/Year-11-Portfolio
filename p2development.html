@@ -32,20 +32,23 @@
         <br>
       </p>
       <p>
-        How this works is that a loop scans through the bottom row of the board, each time it draws two overlapping squares, one square is always black, and then a slightly smaller square is drawn on top of the black square, this gives the appearance of the slightly smaller square on top having an outline. The colour of the smaller square is determined by the columns and row_count which gives the square an RGB r value which means the squares will have a colour from one black to red.
+        How this works is that a loop scans through every square on the bottom row of our board. Each time it draws two overlapping squares, with one slighlty smaller square on top of another one to give the appearance of a slight oultline for the pixels. One square is always black, which finds its correct position with the (col * square_size, row * square_Size) parameters. Then the height and width is just the square_size. The other square and the main floor is drawn by creating an RGB value based on the valuse of col and row_count (which is constant) this creates a gradient from black to red for our floor.
       </p>
       <h3>Feedback</h3>
       <h4>This is instead of testing.</h4>
       <h4>Person 1</h4>
-      <p>What do you think of the floor gradient? Think it looks pretty cool, works well.
-        Do you think it matches the colour scheme of the game? Yeah, the black and red colour gradient looks good on the floor.
+      <p>What do you think of the floor gradient? Think it looks pretty cool, helps makes the game look like its moving.</p>
+      <p> Do you think it matches the colour scheme of the game? Yeah, the black and red colour gradient looks good on the floor.
       </p>
       <h4>Person 2</h4>
-      <p>Do you think the floor gradient looks good? Looks good and fits into the game very well.
-        Do you think the colours of it match the rest of the game? Looks pretty cool the rest of the game looks amazing.</p>
+      <p>Do you think the floor gradient looks good? Looks good and fits into the game very well.</p>
+      <p>Do you think the colours of it match the rest of the game? Looks pretty cool the rest of the game looks amazing.</p>
       <img class>
       <img class= 'draw_pipes' src="Draw_pipes_code.png" alt="Draw_pipes code" id="hp">
         <h1>Draw_pipes Function</h1>
       <h3>Development</h3>
-      <p>My second functions job is to basically draw the columns. The function draws a column on the grid based on the column position and gap start variables, this creates a column at certain intervals on the grid. </p>
+      <p>My second functions job is to basically draw the columns. This second function I made called 'Draw_pipes', draws a column on the grid/board based on the column position and gap start variables, this creates a column at certain intervals on the grid giving us columns along our grid/board. </p>
+      <h3>Feedback</h3>
+      <h4>Person 1</h4>
+      <p>How do the columns look in the game? They look good, you can clearly tell what they are, the only thing is to make sure the hit detection is consistant for them.</p>
       
